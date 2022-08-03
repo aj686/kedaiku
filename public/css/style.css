@@ -9,3 +9,7 @@
     min-height: 100px;
     background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
+
+.gambar-pelajar {
+    width: 100px; height: auto;
+}

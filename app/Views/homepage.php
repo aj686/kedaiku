@@ -110,10 +110,10 @@
             <?php foreach( $all_pelajar as $pelajar ) : ?>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                 <div class="card">
-                    <img src="<?php echo $pelajar['gambar'] ?>" class="card-img-top" alt="...">
+                    <img src="/img/<?php echo $pelajar->nama_fail; ?>" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5><?php echo $pelajar['nama'] ?></h5>
-                      <p class="card-text"><?php echo $pelajar['kelas'] ?></p>
+                        <h5><?php echo $pelajar->nama; ?></h5>
+                      <p class="card-text"><?php echo $pelajar->kelas; ?></p>
                     </div>
                 </div>
             </div>
