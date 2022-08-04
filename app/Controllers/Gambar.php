@@ -9,8 +9,10 @@ class Gambar extends BaseController
     public function index()
     {
 
+        // LOAD MODEL
         $gambar_pelajar = new \App\Models\GambarPelajar();
 
+        // get all data and store into $gambar
         $gambar = $gambar_pelajar->findAll();
 
         // identify the data only compare to dd()
@@ -37,6 +39,63 @@ class Gambar extends BaseController
     }
 
     function add() {
-        echo "<h1>Tambah pelajar</h1>";
+
+        // load form
+        helper('form');
+
+        return view('admin/add');
+    }
+
+    // save data dari add new form 
+    function save_new() {
+
+        // LOAD MODEL
+        $gambar_pelajar = new \App\Models\GambarPelajar();
+
+        // modelling data - incoming request input
+        // input form 
+        // $nama = $this->request->getPost('nama');
+        // $kelas = $this->request->getPost('kelas');
+        // $tingakatan = $this->request->getPost('tingkatan');
+
+        //dd($nama);
+
+        // keep data request in array 
+        $data = [
+            'nama' => $this->request->getPost('nama'),
+            'kelas' => $this->request->getPost('kelas'),
+            'tingkatan' => $this->request->getPost('tingkatan')
+        ];
+
+        //upload gambar pelajar 
+
+        $file = $this->request->getFile('nama_fail');
+
+        // check for error 
+        // dd($files);
+
+        // grab the file by name given in HTML form
+        if ($file) {
+
+            //$file = $files->getFile('nama_fail');
+
+            // generate a new secure name 
+            $nama_fail = $file->getRandomName();
+
+            // move the file to it's new home
+            $file->move( 'img/',  $nama_fail );
+
+            // echo $file->getSize('mb');       // 1.23
+            // echo $file->getExtension();      // jpg
+            // echo $file->getType();           //image/jpg
+
+            // label where it will be saved
+            $data['nama_fail'] = $nama_fail;
+
+        }
+
+        // insert image into database(gambar_pelajar)
+        $gambar_pelajar->insert( $data );
+        
     }
 }

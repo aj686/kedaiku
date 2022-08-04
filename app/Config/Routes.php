@@ -51,6 +51,16 @@ $routes->get('/', 'Home::index');
  * You will have access to the $routes object within that file without
  * needing to reload it.
  */
+
+ // this method for add data
+ // 'Gambar' is class from Gambar.php and 
+ // 'save_new' is new function in Gambar.php
+$routes->post('/gambar/add', 'Gambar::save_new');
+
+
+
+
+
 if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
     require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }

@@ -59,3 +59,16 @@ in APPPATH\Views\admin\listing.php on line 85.
  7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gambar))
  8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-03 11:49:00 --> Undefined variable: getPost
+in APPPATH\Controllers\Gambar.php on line 57.
+ 1 APPPATH\Controllers\Gambar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getPost', 'APPPATH\\Controllers\\Gambar.php', 57, [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Gambar->save_new()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gambar))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-03 12:22:37 --> Call to a member function getRandomName() on array
+in APPPATH\Controllers\Gambar.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Gambar->save_new()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gambar))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
