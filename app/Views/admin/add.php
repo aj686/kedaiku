@@ -67,7 +67,7 @@
 
                 <!--seacrh form form helper -->
                 <!--this is METHOD GET -->
-                <!--this form_open will send to  -->
+                <!--this form_open will send to add in POST METHOD  -->
                 <?php echo form_open_multipart('/gambar/add'); ?>
                     <div class="form-group row mt-2">
                       <label for="nama" class="col-sm-2 col-form-label">Nama</label>

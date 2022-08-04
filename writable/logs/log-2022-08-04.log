@@ -1,0 +1,130 @@
+CRITICAL - 2022-08-04 00:03:55 --> Too few arguments to function App\Controllers\Gambar::edit(), 0 passed in E:\Software\Laragon\laragon\www\kedaiku\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Gambar.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Gambar->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gambar))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 00:16:44 --> Undefined variable: route
+in APPPATH\Config\Routes.php on line 61.
+ 1 APPPATH\Config\Routes.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: route', 'APPPATH\\Config\\Routes.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 01:10:04 --> Undefined variable: route
+in APPPATH\Config\Routes.php on line 61.
+ 1 APPPATH\Config\Routes.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: route', 'APPPATH\\Config\\Routes.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 01:10:06 --> Undefined variable: route
+in APPPATH\Config\Routes.php on line 61.
+ 1 APPPATH\Config\Routes.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: route', 'APPPATH\\Config\\Routes.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 01:10:08 --> Undefined variable: route
+in APPPATH\Config\Routes.php on line 61.
+ 1 APPPATH\Config\Routes.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: route', 'APPPATH\\Config\\Routes.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 01:10:10 --> Undefined variable: route
+in APPPATH\Config\Routes.php on line 61.
+ 1 APPPATH\Config\Routes.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: route', 'APPPATH\\Config\\Routes.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 01:10:15 --> Undefined variable: route
+in APPPATH\Config\Routes.php on line 61.
+ 1 APPPATH\Config\Routes.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: route', 'APPPATH\\Config\\Routes.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 01:10:24 --> Undefined variable: route
+in APPPATH\Config\Routes.php on line 61.
+ 1 APPPATH\Config\Routes.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: route', 'APPPATH\\Config\\Routes.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 01:10:32 --> Undefined variable: route
+in APPPATH\Config\Routes.php on line 61.
+ 1 APPPATH\Config\Routes.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: route', 'APPPATH\\Config\\Routes.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 01:11:00 --> Undefined variable: route
+in APPPATH\Config\Routes.php on line 61.
+ 1 APPPATH\Config\Routes.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: route', 'APPPATH\\Config\\Routes.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 01:11:03 --> Undefined variable: route
+in APPPATH\Config\Routes.php on line 61.
+ 1 APPPATH\Config\Routes.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: route', 'APPPATH\\Config\\Routes.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 01:11:42 --> Undefined variable: route
+in APPPATH\Config\Routes.php on line 61.
+ 1 APPPATH\Config\Routes.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: route', 'APPPATH\\Config\\Routes.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 01:11:44 --> Undefined variable: route
+in APPPATH\Config\Routes.php on line 61.
+ 1 APPPATH\Config\Routes.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: route', 'APPPATH\\Config\\Routes.php', 61, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 01:25:35 --> Call to undefined method CodeIgniter\Pager\Pager::link()
+in APPPATH\Views\admin\listing.php on line 103.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/listing', [], true)
+ 4 APPPATH\Controllers\Gambar.php(42): view('admin/listing', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Gambar->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gambar))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 01:26:23 --> Call to undefined method CodeIgniter\Pager\Pager::link()
+in APPPATH\Views\admin\listing.php on line 103.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/listing', [], true)
+ 4 APPPATH\Controllers\Gambar.php(42): view('admin/listing', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Gambar->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gambar))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 08:44:02 --> Undefined variable: session
+in APPPATH\Controllers\Gambar.php on line 179.
+ 1 APPPATH\Controllers\Gambar.php(179): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'APPPATH\\Controllers\\Gambar.php', 179, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Gambar->save_new()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gambar))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 08:51:58 --> Undefined variable: session
+in APPPATH\Controllers\Gambar.php on line 179.
+ 1 APPPATH\Controllers\Gambar.php(179): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'APPPATH\\Controllers\\Gambar.php', 179, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Gambar->save_new()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gambar))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-04 09:20:36 --> Too few arguments to function App\Controllers\Gambar::edit(), 0 passed in E:\Software\Laragon\laragon\www\kedaiku\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Gambar.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Gambar->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gambar))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

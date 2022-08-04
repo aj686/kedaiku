@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SMK Mahmud Mahyidin</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/admin.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   </head>
   <body>
@@ -58,7 +58,21 @@
 
     <!--SECTION 1-->
     
-    <div class="container">
+    <div class="container mt-4">
+
+        <!-- $_SESSION set be true so, if data success add, it will display this alert at listing.html -->
+        <?php if (isset($_SESSION['success'])) :?>
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>Berjaya!</strong> Data pelajar baru telah berjaya ditambah.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+        <?php endif; ?>
+
+
         <div class="row mt-4">
             <div class="col-12">
                 <a href = "/gambar/add"  class = "btn btn-primary float-right">Add New</a>  <!--float-right not working....aiyaaaa-->
@@ -98,9 +112,14 @@
 
                     </tbody>
                 </table>
+
+                <div id="my-pagination">
+                    <?= $pager->links() ?>
+                </div>
+                
             </div>
-            
-            <div class="col-12">
+
+            <!-- <div class="col-12">
                 <nav aria-label="Page navigation example">
                     <ul class="pagination justify-content-center">
                       <li class="page-item">
@@ -118,7 +137,7 @@
                       </li>
                     </ul>
                 </nav>
-            </div>
+            </div> -->
         </div>
     </div>
 

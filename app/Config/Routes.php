@@ -57,6 +57,8 @@ $routes->get('/', 'Home::index');
  // 'save_new' is new function in Gambar.php
 $routes->post('/gambar/add', 'Gambar::save_new');
 
+// :num will keep the id and past to $1
+$routes->post('/gambar/edit/(:num)', 'Gambar::save_edit/$1');
 
 
 
