@@ -60,12 +60,26 @@
     
     <div class="container mt-4">
 
+        <!-- SUCCESS ADD PELAJAR -->
         <!-- $_SESSION set be true so, if data success add, it will display this alert at listing.html -->
         <?php if (isset($_SESSION['success'])) :?>
         <div class="row">
             <div class="col">
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
                     <strong>Berjaya!</strong> Data pelajar baru telah berjaya ditambah.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+        <?php endif; ?>
+
+        <!-- SUCCESS DELETE PELAJAR -->
+        <!-- $_SESSION set be true so, if data success add, it will display this alert at listing.html -->
+        <?php if (isset($_SESSION['deleted'])) :?>
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <strong>Berjaya!</strong> Data pelajar telah berjaya dihapuskan.
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
             </div>
@@ -104,8 +118,9 @@
                             <td>
                                 
                                 <!-- can use a link -->
+                                <!-- onclick is javascript button when click -->
                                 <a href ="/gambar/edit/<?= $g['id'] ?>" class="btn btn-primary">Edit</a>
-                                <a href ="/gambar/delete/<?= $g['id'] ?>" class="btn btn-danger">Delete</a>
+                                <button href ="/gambar/delete/<?= $g['id'] ?>" onclick="confirm_delete( <?= $g['id'] ?>)" class="btn btn-danger">Delete</button>
                             </td>
                         </tr>
                     <?php endforeach; ?>
@@ -156,5 +171,14 @@
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     
+    <script>
+        
+        //delete data pelajar dengan id pelajar
+        function confirm_delete ( id ) {
+            if ( confirm( 'Anda pasti untuk hapuskan data pelajat ' + id + '?') )
+            window.location.href = '/gambar/delete/' + id;
+        }
+
+    </script>
 </body>
 </html>

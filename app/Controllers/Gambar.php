@@ -4,6 +4,8 @@
 
 namespace App\Controllers;
 
+use CodeIgniter\Router\Exceptions\RedirectException;
+
 class Gambar extends BaseController
 {   
 
@@ -200,5 +202,20 @@ class Gambar extends BaseController
         return redirect()->to('/gambar');
 
 
+    }
+
+    function delete( $id ) {
+
+        // GET LOAD MODEL
+        $gambar_pelajar = new \App\Models\GambarPelajar();
+
+        $gambar_pelajar->where( 'id', $id )->delete();
+        //session for alert success add new data ridirect
+
+        //$_SESSION set to be true 
+        $_SESSION['deleted'] = true;
+        $this->session->markAsFlashData('deleted');
+
+        return redirect()->back();
     }
 }
