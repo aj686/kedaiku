@@ -28,6 +28,21 @@ $routes->setAutoRoute(true);
 // Set `$autoRoutesImproved` to true in `app/Config/Feature.php` and set the following to true.
 //$routes->setAutoRoute(false);
 
+/**
+ * --------------------------------------------------------------------
+ * Auth Routes
+ * --------------------------------------------------------------------
+ */
+
+$routes->match(['get', 'post'], 'login', 'Auth::login'); // LOGIN PAGE
+$routes->match(['get', 'post'], 'register', 'Auth::register'); // REGISTER PAGE
+$routes->match(['get', 'post'], 'forgotpassword', 'Auth::forgotPassword'); // FORGOT PASSWORD
+$routes->match(['get', 'post'], 'activate/(:num)/(:any)', 'Auth::activateUser/$1/$2'); // INCOMING ACTIVATION TOKEN FROM EMAIL
+$routes->match(['get', 'post'], 'resetpassword/(:num)/(:any)', 'Auth::resetPassword/$1/$2'); // INCOMING RESET TOKEN FROM EMAIL
+$routes->match(['get', 'post'], 'updatepassword/(:num)', 'Auth::updatepassword/$1'); // UPDATE PASSWORD
+$routes->match(['get', 'post'], 'lockscreen', 'Auth::lockscreen'); // LOCK SCREEN
+$routes->get('logout', 'Auth::logout'); // LOGOUT
+
 /*
  * --------------------------------------------------------------------
  * Route Definitions
@@ -37,6 +52,48 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+
+/**
+ * --------------------------------------------------------------------
+ * SUPER ADMIN ROUTES. MUST BE LOGGED IN AND HAVE ROLE OF '1'
+ * --------------------------------------------------------------------
+ */
+
+$routes->group('', ['filter' => 'auth:Role,1'], function ($routes) {
+
+	$routes->get('superadmin', 'superadmin::index'); // SUPER ADMIN DASHBOARD
+	$routes->match(['get', 'post'], 'superadmin/profile', 'Auth::profile'); 
+
+    // this method for add data
+    // 'Gambar' is class from Gambar.php and 
+    // 'save_new' is new function in Gambar.php
+    $routes->post('/gambar/add', 'Gambar::save_new');
+    // :num will keep the id and past to $1
+    $routes->post('/gambar/edit/(:num)', 'Gambar::save_edit/$1');
+
+    $routes->get('/gambar/add', 'Gambar::add');
+    $routes->get('/gambar/edit/(:num)', 'Gambar::edit/$1');
+
+    $routes->get('/gambar/delete', 'Gambar::delete/$1');
+    $routes->get('/gambar', 'Gambar::index');
+
+    //hanya admin je boleh guna page di atas
+    //Gambar is a class 
+    // index, delete, edit, save_edit, save new is a function 
+});
+
+
+/**
+ * --------------------------------------------------------------------
+ * ADMIN ROUTES. MUST BE LOGGED IN AND HAVE ROLE OF '2'
+ * --------------------------------------------------------------------
+ */
+
+$routes->group('', ['filter' => 'auth:Role,2'], function ($routes){
+
+	$routes->get('dashboard', 'Dashboard::index'); // ADMIN DASHBOARD
+	$routes->match(['get', 'post'], 'dashboard/profile', 'Auth::profile');
+});
 
 /*
  * --------------------------------------------------------------------
@@ -51,16 +108,6 @@ $routes->get('/', 'Home::index');
  * You will have access to the $routes object within that file without
  * needing to reload it.
  */
-
- // this method for add data
- // 'Gambar' is class from Gambar.php and 
- // 'save_new' is new function in Gambar.php
-$routes->post('/gambar/add', 'Gambar::save_new');
-
-// :num will keep the id and past to $1
-$routes->post('/gambar/edit/(:num)', 'Gambar::save_edit/$1');
-
-
 
 
 if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
