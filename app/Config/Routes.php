@@ -43,6 +43,10 @@ $routes->match(['get', 'post'], 'updatepassword/(:num)', 'Auth::updatepassword/$
 $routes->match(['get', 'post'], 'lockscreen', 'Auth::lockscreen'); // LOCK SCREEN
 $routes->get('logout', 'Auth::logout'); // LOGOUT
 
+$routes->post('/produk/add', 'Produk::save_new');
+$routes->post('/produk/edit/(:num)', 'Produk::save_edit/$1');
+
+
 /*
  * --------------------------------------------------------------------
  * Route Definitions
@@ -68,6 +72,7 @@ $routes->group('', ['filter' => 'auth:Role,1'], function ($routes) {
     // 'Gambar' is class from Gambar.php and 
     // 'save_new' is new function in Gambar.php
     $routes->post('/gambar/add', 'Gambar::save_new');
+
     // :num will keep the id and past to $1
     $routes->post('/gambar/edit/(:num)', 'Gambar::save_edit/$1');
 
