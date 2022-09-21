@@ -1,0 +1,6 @@
+CRITICAL - 2022-08-30 10:30:35 --> Too few arguments to function App\Controllers\Produk::slug(), 0 passed in E:\Software\Laragon\laragon\www\kedaiku\system\CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH\Controllers\Produk.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produk->slug()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

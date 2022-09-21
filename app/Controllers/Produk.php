@@ -22,8 +22,21 @@ class Produk extends BaseController
         $this->produk_model = new \App\Models\ProdukModel();
     }
 
+    //homepage 
+    function homepage() {
 
+        $data = [
+            'produk' => $this->produk_model->orderBy('id', 'desc')->paginate(10),
+            'pager' => $this->produk_model->pager,
+            'produk_img_lokasi' => $this->produk_img_lokasi
+        ];
 
+        // view name need same with 'produk_homepage.php in View folder
+        // $data will past the data to produk_homepage 
+        return view('produk_homepage', $data);
+    }
+
+    // listing page 
     public function index()
     {
     
