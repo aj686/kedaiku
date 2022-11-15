@@ -1,6 +1,14 @@
+
+<!-- header in templates/front_layout -->
+<!-- we use section because it repeatly used same template to save more code-->
+
 <?=$this->extend('/templates/front_layout') ?>
 
+<!-- Start Main Content Section -->
 <?=$this->section('main-content') ?>
+
+<!-- CONTENT OF SECTION ONLY -->
+<!-- NO HEAD AND BODY -->
 
     <div class="row">
         <div class="col-12">
@@ -11,7 +19,7 @@
     </div>
 
     <!-- check data-->
-    <!-- data from page BakulController.php past to Bakul.php using $S_SESSION -->
+    <!-- data from page Bakul.php(Controller) past to Bakul.php using $S_SESSION -->
     <!-- dd($_SESSION) IN PHP -->
 
     <div class="row">
@@ -59,8 +67,9 @@
                 </tbody>
             </table>
 
-        <a href="/checkout" class="btn btn-warning float-right">Checkout</a>
+        <a href="/bakul" class="btn btn-warning float-right">Checkout</a>
         </div>
     </div>
     
+<!-- End Main Content Section -->
 <?=$this->endSection() ?>

@@ -1,0 +1,11 @@
+CRITICAL - 2022-11-02 09:11:59 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin_produk\edit.php on line 30.
+ 1 APPPATH\Views\admin_produk\edit.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin_produk\\edit.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin_produk\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin_produk/edit', [], true)
+ 5 APPPATH\Controllers\Produk.php(86): view('admin_produk/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Produk->edit('slug', 'nikecase')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

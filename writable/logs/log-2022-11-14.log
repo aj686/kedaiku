@@ -1,0 +1,227 @@
+CRITICAL - 2022-11-14 09:21:49 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH\Controllers\Bakul.php on line 64.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('bakul/cart')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('bakul/cart')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('bakul/cart')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 09:21:49 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH\Controllers\Bakul.php on line 64.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('bakul/add')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('bakul/add')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('bakul/add')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 09:25:59 --> syntax error, unexpected '='
+in APPPATH\Controllers\Bakul.php on line 66.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('bakul/add')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('bakul/add')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('bakul/add')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 09:26:10 --> syntax error, unexpected ';', expecting ')'
+in APPPATH\Controllers\Bakul.php on line 68.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('bakul/add')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('bakul/add')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('bakul/add')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 09:26:20 --> syntax error, unexpected ';', expecting ')'
+in APPPATH\Controllers\Bakul.php on line 68.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('bakul/cart')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('bakul/cart')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('bakul/cart')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 09:33:08 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 60.
+ 1 APPPATH\Views\bakul.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 60, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(52): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 09:33:10 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 60.
+ 1 APPPATH\Views\bakul.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 60, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(52): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 09:34:38 --> syntax error, unexpected ';'
+in APPPATH\Controllers\Bakul.php on line 69.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('bakul/cart')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('bakul/cart')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('bakul/cart')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 09:34:46 --> syntax error, unexpected ';'
+in APPPATH\Controllers\Bakul.php on line 69.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('bakul/add')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('bakul/add')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('bakul/add')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 09:37:44 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH\Controllers\Bakul.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-14 09:37:48 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH\Controllers\Bakul.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-14 10:16:36 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 60.
+ 1 APPPATH\Views\bakul.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 60, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(52): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 10:16:37 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 60.
+ 1 APPPATH\Views\bakul.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 60, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(52): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 10:16:38 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 60.
+ 1 APPPATH\Views\bakul.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 60, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(52): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->cart()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 10:40:34 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';'
+in APPPATH\Controllers\Bakul.php on line 82.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('bakul/add')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('bakul/add')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('bakul/add')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 10:42:45 --> Undefined variable: kuantiti
+in APPPATH\Controllers\Bakul.php on line 78.
+ 1 APPPATH\Controllers\Bakul.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kuantiti', 'APPPATH\\Controllers\\Bakul.php', 78, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 10:44:47 --> Undefined property: App\Controllers\Bakul::$session
+in APPPATH\Controllers\Bakul.php on line 81.
+ 1 APPPATH\Controllers\Bakul.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Bakul::$session', 'APPPATH\\Controllers\\Bakul.php', 81, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 10:51:55 --> Undefined index: qty
+in APPPATH\Controllers\Bakul.php on line 105.
+ 1 APPPATH\Controllers\Bakul.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: qty', 'APPPATH\\Controllers\\Bakul.php', 105, [...])
+ 2 APPPATH\Controllers\Bakul.php(82): App\Controllers\Bakul->add_cart('20', 'JD Sport ', '9232.90', null)
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->add()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 10:58:48 --> Undefined index: id
+in APPPATH\Controllers\Bakul.php on line 82.
+ 1 APPPATH\Controllers\Bakul.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\Bakul.php', 82, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 11:01:25 --> Undefined index: id
+in APPPATH\Controllers\Bakul.php on line 83.
+ 1 APPPATH\Controllers\Bakul.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\Bakul.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 11:01:31 --> Undefined index: id
+in APPPATH\Controllers\Bakul.php on line 83.
+ 1 APPPATH\Controllers\Bakul.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\Bakul.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 11:02:09 --> Undefined index: id
+in APPPATH\Controllers\Bakul.php on line 83.
+ 1 APPPATH\Controllers\Bakul.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\Bakul.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 11:47:58 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in E:\Software\Laragon\laragon\www\kedaiku\app\Config\Routes.php on line 111 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 876.
+ 1 APPPATH\Config\Routes.php(111): CodeIgniter\Router\RouteCollection->get('/bakul')
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(112): CodeIgniter\Router\RouteCollection->group('ROOTPATH\\public', [...], Object(Closure))
+ 4 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 11:48:05 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in E:\Software\Laragon\laragon\www\kedaiku\app\Config\Routes.php on line 111 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 876.
+ 1 APPPATH\Config\Routes.php(111): CodeIgniter\Router\RouteCollection->get('/bakul')
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(112): CodeIgniter\Router\RouteCollection->group('ROOTPATH\\public', [...], Object(Closure))
+ 4 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 11:48:16 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in E:\Software\Laragon\laragon\www\kedaiku\app\Config\Routes.php on line 94 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 876.
+ 1 APPPATH\Config\Routes.php(94): CodeIgniter\Router\RouteCollection->get('/bakul')
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(95): CodeIgniter\Router\RouteCollection->group('ROOTPATH\\public', [...], Object(Closure))
+ 4 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 11:48:17 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in E:\Software\Laragon\laragon\www\kedaiku\app\Config\Routes.php on line 94 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 876.
+ 1 APPPATH\Config\Routes.php(94): CodeIgniter\Router\RouteCollection->get('/bakul')
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(95): CodeIgniter\Router\RouteCollection->group('ROOTPATH\\public', [...], Object(Closure))
+ 4 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 11:48:18 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in E:\Software\Laragon\laragon\www\kedaiku\app\Config\Routes.php on line 94 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 876.
+ 1 APPPATH\Config\Routes.php(94): CodeIgniter\Router\RouteCollection->get('/bakul')
+ 2 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(95): CodeIgniter\Router\RouteCollection->group('ROOTPATH\\public', [...], Object(Closure))
+ 4 SYSTEMPATH\CodeIgniter.php(758): require('APPPATH\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 11:51:49 --> Undefined index: id
+in APPPATH\Controllers\Bakul.php on line 83.
+ 1 APPPATH\Controllers\Bakul.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'APPPATH\\Controllers\\Bakul.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->add()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -17,7 +17,7 @@ if (is_file(SYSTEMPATH . 'Config/Routes.php')) {
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('BakulController');    //class Name of Controller
+$routes->setDefaultController('Home');    //class Name of Controller
 $routes->setDefaultMethod('index');      //function name nested in class Name
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -43,10 +43,6 @@ $routes->match(['get', 'post'], 'updatepassword/(:num)', 'Auth::updatepassword/$
 $routes->match(['get', 'post'], 'lockscreen', 'Auth::lockscreen'); // LOCK SCREEN
 $routes->get('logout', 'Auth::logout'); // LOGOUT
 
-$routes->post('/produk/add', 'Produk::save_new');
-$routes->post('/produk/edit/(:num)', 'Produk::save_edit/$1');
-
-
 /*
  * --------------------------------------------------------------------
  * Route Definitions
@@ -55,7 +51,7 @@ $routes->post('/produk/edit/(:num)', 'Produk::save_edit/$1');
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Produk::index');
+$routes->get('/', 'Produk::homepage');
 
 /**
  * --------------------------------------------------------------------
@@ -85,6 +81,17 @@ $routes->group('', ['filter' => 'auth:Role,1'], function ($routes) {
     //hanya admin je boleh guna page di atas
     //Gambar is a class 
     // index, delete, edit, save_edit, save new is a function 
+
+    $routes->post('/produk/add', 'Produk::save_new');
+    $routes->post('/produk/edit/(:num)', 'Produk::save_edit/$1');
+
+    $routes->get('/produk/add', 'Produk::add');
+    $routes->get('/produk/edit/(:num)', 'Produk::edit/$1');
+    $routes->get('/produk/slug/(:any)', 'Produk::slug/$1');
+
+    $routes->get('/produk/delete', 'Produk::delete/$1');
+    $routes->get('/produk', 'Produk::index');
+    //$routes->get('/bakul', 'Bakul::index');
 });
 
 
@@ -98,6 +105,10 @@ $routes->group('', ['filter' => 'auth:Role,2'], function ($routes){
 
 	$routes->get('dashboard', 'Dashboard::index'); // ADMIN DASHBOARD
 	$routes->match(['get', 'post'], 'dashboard/profile', 'Auth::profile');
+
+    $routes->post('/produk/add', 'Produk::save_new');
+    $routes->post('/produk/edit/(:num)', 'Produk::save_edit/$1');
+    //$routes->get('/bakul', 'Bakul::index');
 });
 
 /*

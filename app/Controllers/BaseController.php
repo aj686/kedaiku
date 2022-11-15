@@ -2,6 +2,7 @@
 namespace App\Controllers;
 
 
+use CodeIgniter\HTTP\IncomingRequest; // ADD THIS LINE
 use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 use Psr\Log\LoggerInterface;
@@ -23,6 +24,13 @@ use CodeIgniter\Controller;
 
 class BaseController extends Controller
 {
+	/**
+     * Instance of the main Request object.
+     *
+     * @var IncomingRequest
+     */
+    protected $request; // NOTICE THIS LINE AND THE COMMENT ABOVE IT
+
 
 	/**
 	 * An array of helpers to be loaded automatically upon
@@ -35,6 +43,10 @@ class BaseController extends Controller
 
 	/**
 	 * Constructor.
+	 * 
+	 * @param RequestInterface  $request
+     * @param ResponseInterface $response
+     * @param LoggerInterface   $logger
 	 */
 	public function initController(\CodeIgniter\HTTP\RequestInterface $request, \CodeIgniter\HTTP\ResponseInterface $response, \Psr\Log\LoggerInterface $logger)
 	{

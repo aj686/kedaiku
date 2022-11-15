@@ -250,9 +250,9 @@ class Auth extends BaseController
 			}
 		}		
 
-		echo view('templates/header');
+		//echo view('templates/header');
 		echo view('profile');
-		echo view('templates/footer');
+		//echo view('templates/footer');
 	}
 
 

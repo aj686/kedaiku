@@ -1,59 +1,6 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SMK Mahmud Mahyidin</title>
-    <!--letak slash depan nanti automatic cari tempat file tersebut dari awal-->
-    <link rel="stylesheet" href="/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  </head>
-  <body>
+<?=$this->extend('/templates/front_layout') ?>
 
-    <!--NAVBAR--> 
-
-    <nav class="navbar navbar-expand-lg bg-white">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <div class="row">
-              <div class="col">
-                <img src="/img/smkmm.png" alt="smkmm" width="85" height="85" class="d-inline-block align-text-top">
-              </div>
-              <div class="col align-self-center">
-                SMK Mahmud Mahyidin
-              </div>
-            </div>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">UTAMA</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">INFO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">TENTANG KAMI</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  PENDAFTARAN
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">TIngkatan 1-5</a></li>
-                  <li><a class="dropdown-item" href="#">Tingkatan 6</a></li>
-                  <li><a class="dropdown-item" href="#">Kelab dan Sukan</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </nav>
-
-    <!--NAVBAR END-->
+<?=$this->section('main-content') ?>
 
     <!--HEADER-->
 
@@ -105,6 +52,20 @@
 
     <!--SECTION 2-->
     <div class="container text-center mt-5">
+
+        <!-- SUCCESS ADD PELAJAR -->
+        <!-- $_SESSION set be true so, if data success add, it will display this alert at listing.html -->
+        <?php if (isset($_SESSION['success'])) :?>
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>Add to cart!!</strong> View your item in <a href="/bakul"> cart.</a>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+        <?php endif; ?>
+
         <div class="row justify-content-center">
 
             <?php foreach( $produk as $p ) : ?>
@@ -116,6 +77,19 @@
                       <p class="card-text"><?php echo $p['keterangan']; ?></p>
                       <p class="card-text"> 
                         <strong>RM: </strong><?php echo number_format($p['harga']); ?></p>
+
+                        <!-- add to cart button -->
+                        <!-- submit to form controller = "bakul", function or method = "add"-->
+                        <form method="post" action="/bakul/add" class="row">
+                            <div class="col-sm-6">
+                                <input type="hidden" name="produk_id" value="<?= $p['id'] ?>">
+                                <input type="number" name="kuantiti" value="0" class="form-control">     
+                            </div>
+                            <div class="col-6">
+                                <button type="submit" class="btn btn-primary">Add</button>
+                            </div>
+                        </form>
+                        
                     </div>
                 </div>
             </div>
@@ -133,15 +107,5 @@
     <!--SECTION 2 END-->
 
 
-    <!--FOOTER-->
-    <footer class="p-5 mt-5 text-center text-light bg-dark">
-        <p>Hakcipta terpelihara  &copy; 2022</p>
-    </footer>
-    <!--FOOTER END-->
 
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    
-</body>
-</html>
+<?=$this->endSection() ?>

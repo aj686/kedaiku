@@ -36,17 +36,7 @@
                 <a class="nav-link" href="#">INFO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">TENTANG KAMI</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  PENDAFTARAN
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">TIngkatan 1-5</a></li>
-                  <li><a class="dropdown-item" href="#">Tingkatan 6</a></li>
-                  <li><a class="dropdown-item" href="#">Kelab dan Sukan</a></li>
-                </ul>
+                <a class="nav-link" href="/bakul">CART</a>
               </li>
             </ul>
           </div>
@@ -64,11 +54,11 @@
 
     <!-- CONTAINER -->
 
-    <div class="container mt-5">
+    
 
         <?= $this->renderSection('main-content') ?>
 
-    </div>
+    
 
     <!-- CONTAINER END-->
 
