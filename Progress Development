@@ -1,0 +1,11 @@
+Progreess Development Track:
+
+Date: 22-11-2022
+Task: On going to initialize the update item to cart. 
+Completed: No
+Problem: $kuantiti = $this->request->getPost('kuantiti'); --> display null array. So I can't loop for get the ID product. 
+
+Date: 
+Task 
+Completed:
+Problem:
