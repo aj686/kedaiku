@@ -9,67 +9,92 @@
 
 <!-- CONTENT OF SECTION ONLY -->
 <!-- NO HEAD AND BODY -->
-
+<div class="container">
     <div class="row">
         <div class="col-12">
-            <div class="col-12">
-                <h2><a href="/" class="btn btn-sm btn-primary">Back</a> Your Shopping Cart</h2>
+                <div class="col-12">
+                    <h2><a href="/" class="btn btn-sm btn-primary">Back</a> Your Shopping Cart</h2>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- check data-->
-    <!-- data from page Bakul.php(Controller) past to Bakul.php using $S_SESSION -->
-    <!-- dd($_SESSION) IN PHP -->
+        <!-- SUCCESS UPDATE BARANG -->
+        <!-- $_SESSION set be true so, if data success add, it will display this alert at listing.html -->
+        <?php if (isset($_SESSION['success'])) :?>
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>Successful Update!!</strong> Kuantiti and barang have been updated.</a>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+        <?php endif; ?>
 
-    <div class="row">
-        <div class="col-12">
-            <table class="table table-striped">
-                <thead>
+        <!-- check data-->
+        <!-- data from page Bakul.php(Controller) past to Bakul.php using $S_SESSION -->
+        <!-- dd($_SESSION) IN PHP -->
+
+        <div class="row">
+            <div class="col-12">
+
+            <!-- To update latest barang -->
+            <form action="/bakul/update" method="post">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Produk</th>
+                            <th>Harga</th>
+                            <th width="10%" >Kuantiti</th>
+                            <th>Jumlah</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+    <?php if (isset($_SESSION['cart']['barang']) && (count($_SESSION['cart']['barang']) > 0) ) :  ?>
+        <?php $counter = 0; ?>
+        <?php $total_amount = 0; ?>
+        <?php foreach($_SESSION['cart']['barang'] as $barang ) :  ?>
+
                     <tr>
-                        <th></th>
-                        <th>Produk</th>
-                        <th>Harga</th>
-                        <th width="10%" >Kuantiti</th>
-                        <th>Jumlah</th>
+                        <td><?= ++$counter ?></td>
+                        <td><?= $barang['nama'] ?></td>
+                        <td><?= number_format($barang['harga'], 2) ?></td>
+                        <td><input type="number" step="1" name="<?= $barang['id'] ?> "value="<?= $barang['kuantiti']?>" class="form-control"></td>
+                        <td>RM <?= number_format( $barang['harga'] * $barang['kuantiti'], 2)?></td>
+                        <td>
+                            <a href="#" class="btn btn-danger btn-sm">Remove</a>
+                        </td>
                     </tr>
-                </thead>
-                <tbody>
+        
+        <?php $total_amount += ( $barang['harga'] * $barang['kuantiti']) ?>
+        <?php endforeach; ?>
 
-<?php if (isset($_SESSION['cart']['barang']) && (count($_SESSION['cart']['barang']) > 0) ) :  ?>
-    <?php $counter = 0; ?>
-    <?php $total_amount = 0; ?>
-    <?php foreach($_SESSION['cart']['barang'] as $barang ) :  ?>
+    <?php else :  ?>
+                    <tr>
+                        <td colspan="5">
+                            Bakul anda kosong
+                        </td>
+                    </tr>
 
-                <tr>
-                    <td><?= ++$counter ?></td>
-                    <td><?= $barang['nama'] ?></td>
-                    <td><?= number_format($barang['harga'], 2) ?></td>
-                    <td><input type="number" step="1" value="<?= $barang['kuantiti']?>" class="form-control"></td>
-                    <td>RM <?= number_format( $barang['harga'] * $barang['kuantiti'], 2)?></td>
-                </tr>
-    
-    <?php $total_amount += ( $barang['harga'] * $barang['kuantiti']) ?>
-    <?php endforeach; ?>
+    <?php endif; ?>
+                    <tr>
+                        <td colspan="5" align="right"><strong>Jumlah Harga</strong></td>
+                        <td><strong>RM <?= number_format($total_amount, 2) ?></strong></td>
+                        
+                    </tr>
+                    </tbody>
+                </table>
 
-<?php else :  ?>
-                <tr>
-                    <td colspan="5">
-                        Bakul anda kosong
-                    </td>
-                </tr>
-
-<?php endif; ?>
-                <tr>
-                    <td colspan="4" align="right"><strong>Jumlah Harga</strong></td>
-                    <td><strong>RM <?= number_format($total_amount, 2) ?></strong></td>
-                </tr>
-                </tbody>
-            </table>
-
-        <a href="/bakul" class="btn btn-warning float-right">Checkout</a>
+                <button class="btn btn-primary float-right float-end mx-1">Update Cart</button>
+                <a href="/checkout" class="btn btn-warning float-end">Checkout</a>
+            </form>
         </div>
     </div>
+</div>
+    
     
 <!-- End Main Content Section -->
 <?=$this->endSection() ?>

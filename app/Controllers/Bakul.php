@@ -18,45 +18,14 @@ class Bakul extends BaseController
         $this->session = \Config\Services::session();
     }
 
+    // /bakul controller --> display barang in cart pages 
     public function index() {
-
-        // $_SESSION['cart'] = [
-        //     'barang' => [
-        //         [
-        //             'id' => 1,
-        //             'nama' => 'Lastik',
-        //             'harga' => '10.00',
-        //             'kuantiti' => 2
-        //         ],
-    
-        //         [
-        //             'id' => 2,
-        //             'nama' => 'Plastik',
-        //             'harga' => '50.00',
-        //             'kuantiti' => 5
-        //         ],
-                
-        //         [
-        //             'id' => 3,
-        //             'nama' => 'Jam',
-        //             'harga' => '29.00',
-        //             'kuantiti' => 10
-        //         ],
-
-        //         [
-        //             'id' => 4,
-        //             'nama' => 'Baju',
-        //             'harga' => '100.00',
-        //             'kuantiti' => 1
-        //         ]
-        //     ]
-        // ];
 
         
          return view('bakul');
     }
 
-    // create method for add to cart 
+    // create method for add to cart functionality
     function add() {
 
         // get id post by name="produk_id" and store in var
@@ -67,9 +36,9 @@ class Bakul extends BaseController
 
         $produk_id = $this->request->getPost('produk_id');
         $kuantiti = $this->request->getPost('kuantiti');
-
+        
         //dd($_POST); --> check value array received
-
+        //dd($_POST);
         // die and debug output of data through post method
         // dd( $_POST);
 
@@ -77,13 +46,67 @@ class Bakul extends BaseController
         $produk = $this->produk_model->find( $produk_id );
 
 
-        // produk not found 
+        // if produk found, add to cart 
         if ($produk) {
             $this->add_cart( $produk['id'], $produk['nama'], $produk['harga'], $kuantiti );
             $_SESSION['success'] = true;
             $this->session->markAsFlashData('success');
+            
         }
         return redirect()->back();
+    }
+
+
+    // method update latest barang simultanouesly
+    function update() {
+        //dd($_POST); -> got the array data key and value string 
+
+        // set session to null 
+        $_SESSION['cart'] = [
+            'barang' => []
+        ];
+        //dd($_SESSION);
+
+        // Incoming Request Class/ Retrieving Input
+        // get the id and value kuantiti
+        $kuantiti = $this->request->getPost('kuantiti');
+        //dd($kuantiti); -> array null
+        //var_dump($_POST);
+        //die();
+        
+
+        // declare variable array 
+        $all_ids = [];
+
+        // Check if $myList is indeed an array or an object.
+        if (is_iterable($kuantiti)) {
+        // If yes, then foreach() will iterate over it.
+
+            // just want produk id only
+            foreach($kuantiti as $id => $val) {
+            $all_ids[] = $id;
+              
+        }
+        }
+
+        // If $kuantiti was not an array, then this block is executed.
+        else {
+        echo "Unfortunately, an error occurred.";
+        }
+
+    
+        // get array value with all id 
+        // update all item in once only 
+        $produks = $this->produk->model->find( $all_ids );
+
+        foreach( $produks as $produk) {
+            $this->add_cart( $produk['id'], $produk['nama'], $produk['harga'], $kuantiti[ $produk['id']] );
+        }
+
+        $_SESSION['success'] = true;
+        $this->session->markAsFlashData('success');
+        return redirect()->back();
+
     }
 
     // protected function will prevent it from being served by a URL request.
