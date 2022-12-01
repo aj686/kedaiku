@@ -5,7 +5,7 @@ Task: On going to initialize the update item to cart.
 Completed: No
 Problem: $kuantiti = $this->request->getPost('kuantiti'); --> display null array. So I can't loop for get the ID product. 
 
-Date: 
-Task 
-Completed:
-Problem:
+Date: 2-12-2022
+Task: Update item add cart 
+Completed: Successfully 
+Problem: -
