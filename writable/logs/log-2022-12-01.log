@@ -1,0 +1,88 @@
+CRITICAL - 2022-12-01 15:37:20 --> Undefined property: App\Controllers\Bakul::$produk
+in APPPATH\Controllers\Bakul.php on line 100.
+ 1 APPPATH\Controllers\Bakul.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Bakul::$produk', 'APPPATH\\Controllers\\Bakul.php', 100, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 15:38:01 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 85.
+ 1 APPPATH\Views\bakul.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 85, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 15:38:24 --> Undefined property: App\Controllers\Bakul::$produk
+in APPPATH\Controllers\Bakul.php on line 87.
+ 1 APPPATH\Controllers\Bakul.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Bakul::$produk', 'APPPATH\\Controllers\\Bakul.php', 87, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 15:41:21 --> Undefined property: App\Controllers\Bakul::$produk
+in APPPATH\Controllers\Bakul.php on line 87.
+ 1 APPPATH\Controllers\Bakul.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Bakul::$produk', 'APPPATH\\Controllers\\Bakul.php', 87, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 15:41:22 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 85.
+ 1 APPPATH\Views\bakul.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 85, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 15:43:03 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 85.
+ 1 APPPATH\Views\bakul.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 85, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 15:43:20 --> Undefined property: App\Controllers\Bakul::$produk
+in APPPATH\Controllers\Bakul.php on line 88.
+ 1 APPPATH\Controllers\Bakul.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Bakul::$produk', 'APPPATH\\Controllers\\Bakul.php', 88, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 15:46:09 --> Cannot use [] for reading
+in APPPATH\Controllers\Bakul.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->update()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 15:46:37 --> Undefined property: App\Controllers\Bakul::$produk
+in APPPATH\Controllers\Bakul.php on line 88.
+ 1 APPPATH\Controllers\Bakul.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Bakul::$produk', 'APPPATH\\Controllers\\Bakul.php', 88, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 17:25:15 --> Undefined property: App\Controllers\Bakul::$produk
+in APPPATH\Controllers\Bakul.php on line 88.
+ 1 APPPATH\Controllers\Bakul.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Bakul::$produk', 'APPPATH\\Controllers\\Bakul.php', 88, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 17:25:20 --> Undefined property: App\Controllers\Bakul::$produk
+in APPPATH\Controllers\Bakul.php on line 88.
+ 1 APPPATH\Controllers\Bakul.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Bakul::$produk', 'APPPATH\\Controllers\\Bakul.php', 88, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->update()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

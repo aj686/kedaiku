@@ -74,33 +74,24 @@ class Bakul extends BaseController
         //var_dump($_POST);
         //die();
         
-
         // declare variable array 
         $all_ids = [];
-
-        // Check if $myList is indeed an array or an object.
-        if (is_iterable($kuantiti)) {
-        // If yes, then foreach() will iterate over it.
-
-            // just want produk id only
-            foreach($kuantiti as $id => $val) {
-            $all_ids[] = $id;
-              
+        
+        // just want produk id only
+        foreach($kuantiti as $id => $val) {
+            $all_ids[] = $id;   
+            
         }
-        }
-
-        // If $kuantiti was not an array, then this block is executed.
-        else {
-        echo "Unfortunately, an error occurred.";
-        }
-
-    
+        // dd($all_ids); 
         // get array value with all id 
         // update all item in once only 
-        $produks = $this->produk->model->find( $all_ids );
+        $produks = $this->produk_model->find( $all_ids );
 
         foreach( $produks as $produk) {
-            $this->add_cart( $produk['id'], $produk['nama'], $produk['harga'], $kuantiti[ $produk['id']] );
+
+            if ($kuantiti [ $produk['id']] > 0 ) {
+                $this->add_cart( $produk['id'], $produk['nama'], $produk['harga'], $kuantiti[ $produk['id']] );
+            }   
         }
 
         $_SESSION['success'] = true;

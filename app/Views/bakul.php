@@ -38,8 +38,8 @@
         <div class="row">
             <div class="col-12">
 
-            <!-- To update latest barang -->
-            <form action="/bakul/update" method="post">
+            <!-- To update latest kuantiti barang only -->
+            <form action="/bakul/update" method="POST">
                 <table class="table table-striped">
                     <thead>
                         <tr>
@@ -62,7 +62,7 @@
                         <td><?= ++$counter ?></td>
                         <td><?= $barang['nama'] ?></td>
                         <td><?= number_format($barang['harga'], 2) ?></td>
-                        <td><input type="number" step="1" name="<?= $barang['id'] ?> "value="<?= $barang['kuantiti']?>" class="form-control"></td>
+                        <td><input type="number" step="1" name="kuantiti[<?= $barang['id']?>]" value="<?= $barang['kuantiti']?>" class="form-control"></td>
                         <td>RM <?= number_format( $barang['harga'] * $barang['kuantiti'], 2)?></td>
                         <td>
                             <a href="#" class="btn btn-danger btn-sm">Remove</a>
