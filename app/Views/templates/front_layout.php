@@ -14,7 +14,7 @@
 
     <nav class="navbar navbar-expand-lg bg-white">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             <div class="row">
               <div class="col">
                 <img src="/img/smkmm.png" alt="smkmm" width="85" height="85" class="d-inline-block align-text-top">

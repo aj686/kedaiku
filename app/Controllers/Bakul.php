@@ -80,6 +80,10 @@ class Bakul extends BaseController
         // just want produk id only
         foreach($kuantiti as $id => $val) {
             $all_ids[] = $id;   
+
+
+        // 2. Get key id only 
+        // $all_ids = array_keys($kuantiti);
             
         }
         // dd($all_ids); 
