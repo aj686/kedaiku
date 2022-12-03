@@ -104,6 +104,19 @@ class Bakul extends BaseController
 
     }
 
+
+    function remove( $id ) {
+        foreach($_SESSION['cart']['barang'] as $key => $item) {
+            if( $item['id'] == $id) {
+                unset($_SESSION['cart']['barang'][$key]);
+            }
+        }
+
+        $_SESSION['remove'] = true;
+        $this->session->markAsFlashData('remove');
+        return redirect()->back();
+    }
+
     // protected function will prevent it from being served by a URL request.
     // methods hidden from public access
     protected function add_cart( $id, $nama, $harga, $kuantiti ) {

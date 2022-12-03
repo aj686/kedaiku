@@ -31,6 +31,17 @@
         </div>
         <?php endif; ?>
 
+        <?php if (isset($_SESSION['remove'])) :?>
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <strong>Successful Update!!</strong> Barang anda telah dibuang.</a>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+        <?php endif; ?>
+
         <!-- check data-->
         <!-- data from page Bakul.php(Controller) past to Bakul.php using $S_SESSION -->
         <!-- dd($_SESSION) IN PHP -->
@@ -65,7 +76,7 @@
                         <td><input type="number" step="1" name="kuantiti[<?= $barang['id']?>]" value="<?= $barang['kuantiti']?>" class="form-control"></td>
                         <td>RM <?= number_format( $barang['harga'] * $barang['kuantiti'], 2)?></td>
                         <td>
-                            <a href="#" class="btn btn-danger btn-sm">Remove</a>
+                            <a href="#" class="btn btn-danger btn-sm" onclick="confirm_remove(<?= $barang['id']?>)" >Remove</a>
                         </td>
                     </tr>
         
@@ -94,6 +105,16 @@
         </div>
     </div>
 </div>
+
+<script>
+        
+        //delete data pelajar dengan id pelajar
+        function confirm_remove ( id ) {
+            if ( confirm( 'Anda pasti untuk buang barang ini?') )
+            window.location.href = '/bakul/remove/' + id;
+        }
+
+</script>
     
     
 <!-- End Main Content Section -->
