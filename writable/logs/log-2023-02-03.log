@@ -1,0 +1,649 @@
+CRITICAL - 2023-02-03 20:37:52 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 20:37:55 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 20:37:57 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 20:37:58 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 20:38:07 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 20:38:20 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 20:38:38 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 20:39:13 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 21:23:58 --> Unknown column 'kategori.deleted_at' in 'where clause'
+CRITICAL - 2023-02-03 21:23:58 --> Unknown column 'kategori.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Kategori.php(35): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kategori->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 21:24:56 --> Unknown column 'kategori.deleted_at' in 'where clause'
+CRITICAL - 2023-02-03 21:24:56 --> Unknown column 'kategori.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Kategori.php(35): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kategori->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 21:26:58 --> Unknown column 'kategori.deleted_at' in 'where clause'
+CRITICAL - 2023-02-03 21:26:58 --> Unknown column 'kategori.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Kategori.php(35): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kategori->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 21:27:12 --> Unknown column 'kategori.deleted_at' in 'where clause'
+CRITICAL - 2023-02-03 21:27:12 --> Unknown column 'kategori.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Kategori.php(35): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kategori->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 21:27:13 --> Unknown column 'kategori.deleted_at' in 'where clause'
+CRITICAL - 2023-02-03 21:27:13 --> Unknown column 'kategori.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Kategori.php(35): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kategori->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 21:27:46 --> Unknown column 'kategori.deleted_at' in 'where clause'
+CRITICAL - 2023-02-03 21:27:46 --> Unknown column 'kategori.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Kategori.php(35): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kategori->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 21:27:46 --> Unknown column 'kategori.deleted_at' in 'where clause'
+CRITICAL - 2023-02-03 21:27:46 --> Unknown column 'kategori.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Kategori.php(35): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kategori->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 21:28:44 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 21:35:51 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 21:35:57 --> Unknown column 'kategori.deleted_at' in 'where clause'
+CRITICAL - 2023-02-03 21:35:57 --> Unknown column 'kategori.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Kategori.php(35): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kategori->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 21:35:57 --> Unknown column 'kategori.deleted_at' in 'where clause'
+CRITICAL - 2023-02-03 21:35:57 --> Unknown column 'kategori.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Kategori.php(35): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kategori->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 21:36:52 --> Unknown column 'kategori.deleted_at' in 'where clause'
+CRITICAL - 2023-02-03 21:36:52 --> Unknown column 'kategori.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Kategori.php(35): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kategori->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 21:36:57 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 21:38:43 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 21:38:55 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 21:39:13 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 22:00:53 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 22:00:58 --> Unknown column 'kategori.deleted_at' in 'where clause'
+CRITICAL - 2023-02-03 22:00:58 --> Unknown column 'kategori.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Kategori.php(35): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kategori->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 22:00:58 --> Unknown column 'kategori.deleted_at' in 'where clause'
+CRITICAL - 2023-02-03 22:00:58 --> Unknown column 'kategori.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Kategori.php(35): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kategori->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 22:02:05 --> Unknown column 'kategori.deleted_at' in 'where clause'
+CRITICAL - 2023-02-03 22:02:05 --> Unknown column 'kategori.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Kategori.php(35): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kategori->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 22:02:06 --> Unknown column 'kategori.deleted_at' in 'where clause'
+CRITICAL - 2023-02-03 22:02:06 --> Unknown column 'kategori.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Kategori.php(35): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kategori->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 22:03:45 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 22:03:54 --> Unknown column 'kategori.deleted_at' in 'where clause'
+CRITICAL - 2023-02-03 22:03:54 --> Unknown column 'kategori.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Kategori.php(35): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kategori->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-03 22:03:54 --> Unknown column 'kategori.deleted_at' in 'where clause'
+CRITICAL - 2023-02-03 22:03:54 --> Unknown column 'kategori.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kategori`
+WHERE `kategori`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Kategori.php(35): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Kategori->index()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 22:04:30 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 23:52:27 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 23:57:22 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 23:57:25 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 23:57:26 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 23:57:27 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 23:57:28 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 23:57:29 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 23:57:29 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 23:57:42 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-03 23:57:47 --> Undefined variable: total_amount
+in APPPATH\Views\bakul.php on line 96.
+ 1 APPPATH\Views\bakul.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_amount', 'APPPATH\\Views\\bakul.php', 96, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\bakul.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('bakul', [], true)
+ 5 APPPATH\Controllers\Bakul.php(25): view('bakul')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Bakul->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bakul))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

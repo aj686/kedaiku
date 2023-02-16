@@ -43,9 +43,24 @@
                     </div>
 
                     <div class="form-group row mt-2">
+                      <label for="harga" class="col-sm-2 col-form-label">Kategori</label>
+                      <div class="col-sm-10">
+                        
+                        <?php
+                          echo form_dropdown('kategori_id', 
+                            $kategori,
+                            $produk['kategori_id'], 
+                            ['class' => 'form-control'
+                          ]);
+                        ?>
+
+                      </div>
+                    </div>
+
+                    <div class="form-group row mt-2">
                       <label for="keterangan" class="col-sm-2 col-form-label">Keterangan</label>
                       <div class="col-sm-10">
-                        <input type="text" class="form-control" id="keterangan" name="keterangan" value="<?= $produk['keterangan'] ?>">
+                        <input type="text" class="form-control" id="keterangan" name="keterangan" row="3" value="<?= $produk['keterangan'] ?>">
                       </div>
                     </div>
 

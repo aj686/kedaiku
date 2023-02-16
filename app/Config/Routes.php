@@ -43,6 +43,7 @@ $routes->match(['get', 'post'], 'updatepassword/(:num)', 'Auth::updatepassword/$
 $routes->match(['get', 'post'], 'lockscreen', 'Auth::lockscreen'); // LOCK SCREEN
 $routes->get('logout', 'Auth::logout'); // LOGOUT
 
+
 /*
  * --------------------------------------------------------------------
  * Route Definitions
@@ -64,17 +65,14 @@ $routes->group('', ['filter' => 'auth:Role,1'], function ($routes) {
 	$routes->get('superadmin', 'superadmin::index'); // SUPER ADMIN DASHBOARD
 	$routes->match(['get', 'post'], 'superadmin/profile', 'Auth::profile'); 
 
-    // this method for add data
+    // this method for add data from form and show data in table 
     // 'Gambar' is class from Gambar.php and 
     // 'save_new' is new function in Gambar.php
     $routes->post('/gambar/add', 'Gambar::save_new');
-
     // :num will keep the id and past to $1
     $routes->post('/gambar/edit/(:num)', 'Gambar::save_edit/$1');
-
     $routes->get('/gambar/add', 'Gambar::add');
     $routes->get('/gambar/edit/(:num)', 'Gambar::edit/$1');
-
     $routes->get('/gambar/delete', 'Gambar::delete/$1');
     $routes->get('/gambar', 'Gambar::index');
 
@@ -84,14 +82,23 @@ $routes->group('', ['filter' => 'auth:Role,1'], function ($routes) {
 
     $routes->post('/produk/add', 'Produk::save_new');
     $routes->post('/produk/edit/(:num)', 'Produk::save_edit/$1');
-
     $routes->get('/produk/add', 'Produk::add');
     $routes->get('/produk/edit/(:num)', 'Produk::edit/$1');
     $routes->get('/produk/slug/(:any)', 'Produk::slug/$1');
-
     $routes->get('/produk/delete', 'Produk::delete/$1');
     $routes->get('/produk', 'Produk::index');
+
     //$routes->get('/bakul', 'Bakul::index');
+
+
+    $routes->post('/kategori/add', 'Kategori::save_new');
+    // :num will keep the id and past to $1
+    $routes->post('/kategori/edit/(:num)', 'Kategori::save_edit/$1');
+    $routes->get('/kategori/add', 'Kategori::add');
+    $routes->get('/kategori/edit/(:num)', 'Kategori::edit/$1');
+    $routes->get('/kategori/slug/(:any)', 'Kategori::slug/$1');
+    $routes->get('/kategori/delete', 'Kategori::delete/$1');
+    $routes->get('/kategori', 'Kategori::index');
 });
 
 
@@ -109,6 +116,11 @@ $routes->group('', ['filter' => 'auth:Role,2'], function ($routes){
     $routes->post('/produk/add', 'Produk::save_new');
     $routes->post('/produk/edit/(:num)', 'Produk::save_edit/$1');
     //$routes->get('/bakul', 'Bakul::index');
+
+    $routes->post('/kategori/add', 'Kategori::save_new');
+
+    // :num will keep the id and past to $1
+    $routes->post('/kategori/edit/(:num)', 'Kategori::save_edit/$1');
 });
 
 /*

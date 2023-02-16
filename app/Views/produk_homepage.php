@@ -73,7 +73,8 @@
                 <div class="card">
                     <img src="<?php echo '/'.  $produk_img_lokasi . '/'. $p['gambar']; ?>" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5><?php echo $p['nama']; ?></h5>
+                    <p><span class="badge bg-info text-dark"> <?= $kategori [ $p['kategori_id']] ?> </span></p>
+                    <h5><?php echo $p['nama']; ?></h5>
                       <p class="card-text"><?php echo $p['keterangan']; ?></p>
                       <p class="card-text"> 
                         <strong>RM: </strong><?php echo number_format($p['harga']); ?></p>

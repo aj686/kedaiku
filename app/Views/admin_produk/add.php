@@ -20,11 +20,27 @@
                         <input type="text" class="form-control" id="nama" name="nama" value="">
                       </div>
                     </div>
+                    
 
                     <div class="form-group row mt-2">
                       <label for="harga" class="col-sm-2 col-form-label">Harga</label>
                       <div class="col-sm-10">
                         <input type="text" class="form-control" id="harga" name="harga" value="">
+                      </div>
+                    </div>
+
+                    <div class="form-group row mt-2">
+                      <label for="harga" class="col-sm-2 col-form-label">Kategori</label>
+                      <div class="col-sm-10">
+                        
+                        <?php
+                          echo form_dropdown('kategori_id', 
+                            $kategori, 
+                            null, 
+                            [ 'class' => 'form-control' ]
+                          );
+                        ?>
+
                       </div>
                     </div>
 

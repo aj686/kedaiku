@@ -34,43 +34,41 @@
 
         <div class="row mt-4">
             <div class="col-12">
-                <a href = "/produk/add"  class = "btn btn-primary float-right">Add New</a>  <!--float-right not working....aiyaaaa-->
-                <h3>Senarai Produk</h3>
+                <a href = "/kategori/add"  class = "btn btn-primary float-right">Add New</a>  <!--float-right not working....aiyaaaa-->
+                <h3>Senarai Kategori</h3>
             </div>
             <div class="col-12">
                 <table class="table table-striped">
                     <thead class="thead-dark">  <!--tak display hitam...aiyaaa peninglah-->
                         <tr>
                             <th>ID</th>
-                            <th>GAMBAR</th>
                             <th>NAMA</th>
-                            <th>KATEGORI</th>
-                            <th>KETERANGAN</th>
-                            <th>HARGA</th>
                             <th></th>
-                        </tr> 
+                        </tr>
                     </thead>
                     <tbody>
 
-                    <?php foreach($produk as $p) : ?>
-                        <tr>
-                            <td><?= $p['id'] ?></td>
-                            <td>
-                                <img class="gambar-pelajar" src="/img/produk/<?= $p['gambar']; ?>">
-                            </td>
-                            <td><?= $p['nama']  ?></td>
-                            <td><?= $kategori [$p['kategori_id']] ?></td>
-                            <td><?= $p['keterangan']  ?></td>
-                            <td>RM <?= number_format($p['harga'], 2)  ?></td>
-                            <td>
-                                
-                                <!-- can use a link -->
-                                <!-- onclick is javascript button when click -->
-                                <a href ="/produk/edit/<?= $p['id'] ?>" class="btn btn-primary">Edit</a>
-                                <button href ="/produk/delete/<?= $p['id'] ?>" onclick="confirm_delete( <?= $p['id'] ?>)" class="btn btn-danger">Delete</button>
-                            </td>
-                        </tr>
-                    <?php endforeach; ?>
+                    <?php if( count($kategori) < 1) : ?>
+
+                        <tr><td colspan="3" style="height: 100px; text-align: center; vertical-align: middle;"> Tiada record dalam kategori </td></tr>
+
+                    <?php else : ?>
+
+                        <?php foreach($kategori as $p) : ?>
+                            <tr>
+                                <td><?= $p['id'] ?></td>
+                                <td><?= $p['nama']  ?></td> 
+                                <td>
+                                    
+                                    <!-- can use a link -->
+                                    <!-- onclick is javascript button when click -->
+                                    <a href ="/kategori/edit/<?= $p['id'] ?>" class="btn btn-primary">Edit</a>
+                                    <button href ="/kategori/delete/<?= $p['id'] ?>" onclick="confirm_delete( <?= $p['id'] ?>)" class="btn btn-danger">Delete</button>
+                                </td>
+                            </tr>
+                        <?php endforeach; ?>
+
+                    <?php endif; ?>
 
                     </tbody>
                 </table>
@@ -90,7 +88,7 @@
         //delete data pelajar dengan id pelajar
         function confirm_delete ( id ) {
             if ( confirm( 'Anda pasti untuk hapuskan data ' + id + '?') )
-            window.location.href = '/produk/delete/' + id;
+            window.location.href = '/kategori/delete/' + id;
         }
 
     </script>

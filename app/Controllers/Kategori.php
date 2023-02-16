@@ -6,10 +6,8 @@ namespace App\Controllers;
 
 use CodeIgniter\Router\Exceptions\RedirectException;
 
-class Produk extends BaseController
+class Kategori extends BaseController
 {   
-
-    var $produk_img_lokasi = 'img/produk';
 
     //firstly run before other so we don't need to paste to other function below
     //__contstruct() is automatically call this function when object created from class 
@@ -19,41 +17,23 @@ class Produk extends BaseController
         $this->session = \Config\Services::session();
 
         // LOAD MODEL
-        $this->produk_model = new \App\Models\ProdukModel();
         $this->kategori_model = new \App\Models\KategoriModel();
     }
 
-    //homepage 
-    function homepage() {
-
-        $kategori = $this->kategori_model->dropdown(); 
-
-        $data = [
-            'produk' => $this->produk_model->orderBy('id', 'desc')->paginate(10),
-            'pager' => $this->produk_model->pager,
-            'produk_img_lokasi' => $this->produk_img_lokasi,
-            'kategori' => $kategori
-            
-        ];
-
-        // view name need same with 'produk_homepage.php in View folder
-        // $data will past the data to produk_homepage 
-        return view('produk_homepage', $data);
-    }
+    
 
     // listing page 
     public function index()
     {
-        $kategori = $this->kategori_model->dropdown(); 
+    
 
         // get all data and store into $gambar
-        //$gambar = $this->produk_model->findAll();
+        //$gambar = $this->kategori_model->findAll();
 
         // pagination data with latest data
         $data = [
-            'produk' => $this->produk_model->orderBy('id', 'desc')->paginate(10),
-            'pager' => $this->produk_model->pager,
-            'kategori' => $kategori
+            'kategori' => $this->kategori_model->orderBy('id', 'asc')->paginate(10),
+            'pager' => $this->kategori_model->pager,
         ];
 
 
@@ -74,7 +54,7 @@ class Produk extends BaseController
         // so 'gambar' can be use in listing.php now
         //return view('admin/listing' , [ 'gambar' => $gambar ]);
 
-        return view('admin_produk/listing' , $data );
+        return view('admin_kategori/listing' , $data );
     }
 
     // boleh dapatkan id di url as paramater dalam function 
@@ -84,29 +64,23 @@ class Produk extends BaseController
         helper('form');
 
         // get id from url and store into $gambar 
-        $produk = $this->produk_model->find( $id ); 
+        $kategori = $this->kategori_model->find( $id ); 
 
-        $kategori = $this->kategori_model->dropdown(); 
 
-        // pass to new variable in view section 
-        return view('admin_produk/edit', [
-            'kategori' => $kategori,
-            'produk' => $produk,
-            'produk_img_lokasi' => $this->produk_img_lokasi
-
+        return view('admin_kategori/edit', [
+            'kategori' => $kategori
         ]);
     }
 
 
     // slug -> display slug with name of item in url
-    // add slug table of each item with own name that will display in url .admin_produk/edit/slug/own name 
+    // add slug table of each item with own name that will display in url .admin_kategori/edit/slug/own name 
     // etc 'http://kedaiku.test/produk/slug/nikecase'
 
     function slug($slug) {
-        $produk = $produk = $this->produk_model->where( 'slug', $slug )->first(); 
-        return view('admin_produk/edit', [
-            'produk' => $produk,
-            'produk_img_lokasi' => $this->produk_img_lokasi
+        $kategori = $this->kategori_model->where( 'slug', $slug )->first(); 
+        return view('admin_kategori/edit', [
+            'kategori' => $kategori
         ]);
     }
 
@@ -130,39 +104,9 @@ class Produk extends BaseController
             
         ];
 
-        // user choose, then kategori add into $data as array
-        if ($this->request->getPost('kategori_id') != 0) {
-            $data['kategori_id'] = $this->request->getPost('kategori_id');
-        }
-
-        //upload gambar pelajar 
-        $file = $this->request->getFile('gambar');
-
-        // check for error 
-        // dd($files);
-
-        // grab the file by name given in HTML form
-        if ($file->isReadable()) {
-
-            //$file = $files->getFile('nama_fail');
-
-            // generate a new secure name 
-            $gambar = $file->getRandomName();
-
-            // move the file to it's new home
-            $file->move( $this->produk_img_lokasi,  $gambar );
-
-            // echo $file->getSize('mb');       // 1.23
-            // echo $file->getExtension();      // jpg
-            // echo $file->getType();           //image/jpg
-
-            // label where it will be saved
-            $data['gambar'] = $gambar;
-
-        }
 
         // save image into database(produk_model)
-        $this->produk_model->update( $id, $data );
+        $this->kategori_model->update( $id, $data );
 
         //session for alert success add new data ridirect
         
@@ -171,7 +115,7 @@ class Produk extends BaseController
         $this->session->markAsFlashData('success');
 
         //after success it redirect change the method to listing.php 
-        return redirect()->to('/produk/edit/'. $id);
+        return redirect()->to('/kategori/edit/'. $id);
     }
 
     function add() {
@@ -179,9 +123,7 @@ class Produk extends BaseController
         // load form
         helper('form');
 
-        $kategori = $this->kategori_model->dropdown();
-
-        return view('admin_produk/add', ['kategori' => $kategori]);
+        return view('admin_kategori/add');
     }
 
     // save data dari add new form 
@@ -197,48 +139,15 @@ class Produk extends BaseController
         //dd($nama);
 
         // keep data request in array 
-        $data = [ 
+        $data = [
             'nama' => $this->request->getPost('nama'),
             'harga' => $this->request->getPost('harga'),
             'keterangan' => $this->request->getPost('keterangan')
             
         ];
 
-        // user choose, then kategori add into $data as array
-        if ($this->request->getPost('kategori_id') != 0) {
-            $data['kategori_id'] = $this->request->getPost('kategori_id');
-        }
-
-        //upload gambar pelajar 
-
-        $file = $this->request->getFile('gambar');
-
-        // check for error 
-        // dd($files);
-
-        // grab the file by name given in HTML form
-        if ($file->isReadable()) {
-
-            //$file = $files->getFile('nama_fail');
-
-            // generate a new secure name 
-            $fail_gambar = $file->getRandomName();
-
-            // move the file to it's new home
-            $file->move( $this->produk_img_lokasi,  $fail_gambar );
-
-            // echo $file->getSize('mb');       // 1.23
-            // echo $file->getExtension();      // jpg
-            // echo $file->getType();           //image/jpg
-
-            // label where it will be saved
-            // $data['gambar'] same with database table name 
-            $data['gambar'] = $fail_gambar;
-
-        }
-
         // insert image into database(produk_model)
-        $this->produk_model->insert( $data );
+        $this->kategori_model->insert( $data );
 
         //session for alert success add new data ridirect
 
@@ -247,14 +156,14 @@ class Produk extends BaseController
         $this->session->markAsFlashData('success');
 
         //after success it redirect change the method to listing.php 
-        return redirect()->to('/produk');
+        return redirect()->to('/kategori');
 
 
     }
 
     function delete( $id ) {
 
-        $this->produk_model->where( 'id', $id )->delete();
+        $this->kategori_model->where( 'id', $id )->delete();
         //session for alert success add new data ridirect
 
         //$_SESSION set to be true 

@@ -83,19 +83,20 @@
         <?php $total_amount += ( $barang['harga'] * $barang['kuantiti']) ?>
         <?php endforeach; ?>
 
-    <?php else :  ?>
-                    <tr>
-                        <td colspan="5">
-                            Bakul anda kosong
-                        </td>
-                    </tr>
-
-    <?php endif; ?>
                     <tr>
                         <td colspan="5" align="right"><strong>Jumlah Harga</strong></td>
                         <td><strong>RM <?= number_format($total_amount, 2) ?></strong></td>
                         
                     </tr>
+
+    <?php else :  ?>
+                    <tr>
+                        <td colspan="6" align="center">
+                            Bakul anda kosong
+                        </td>
+                    </tr>
+
+    <?php endif; ?>
                     </tbody>
                 </table>
 
